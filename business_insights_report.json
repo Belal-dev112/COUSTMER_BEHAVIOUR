@@ -1,0 +1,125 @@
+{
+  "executive_summary": {
+    "total_customers": 10000,
+    "overall_churn_rate": "77.74%",
+    "high_risk_customers": 2000,
+    "best_model": "Gradient Boosting",
+    "model_accuracy": "77.70%",
+    "model_roc_auc": "0.6854"
+  },
+  "key_churn_drivers": [
+    {
+      "feature": "contract_type",
+      "importance": 0.2671475871420335
+    },
+    {
+      "feature": "support_tickets",
+      "importance": 0.17009653256058635
+    },
+    {
+      "feature": "complaints",
+      "importance": 0.12315007975592009
+    },
+    {
+      "feature": "payment_delay_days",
+      "importance": 0.05896623004519325
+    },
+    {
+      "feature": "login_frequency",
+      "importance": 0.05787560645205692
+    },
+    {
+      "feature": "payment_reliability",
+      "importance": 0.056057777200845184
+    },
+    {
+      "feature": "payment_method",
+      "importance": 0.0358957327246731
+    },
+    {
+      "feature": "promotional_offers_used",
+      "importance": 0.027225655329130315
+    },
+    {
+      "feature": "tenure_months",
+      "importance": 0.02684305556599996
+    },
+    {
+      "feature": "location",
+      "importance": 0.022417770052309036
+    },
+    {
+      "feature": "days_since_last_login",
+      "importance": 0.021661072121684093
+    },
+    {
+      "feature": "tenure_category",
+      "importance": 0.02163278822145244
+    },
+    {
+      "feature": "recency_score",
+      "importance": 0.016784297456997596
+    },
+    {
+      "feature": "support_intensity",
+      "importance": 0.01607858405464438
+    },
+    {
+      "feature": "gender",
+      "importance": 0.015912253856384992
+    }
+  ],
+  "segment_insights": {
+    "Avg Tenure": {
+      "0": 13.62,
+      "1": 15.13,
+      "2": 56.42,
+      "3": 17.9
+    },
+    "Avg Charges": {
+      "0": 68.98,
+      "1": 68.05,
+      "2": 66.5,
+      "3": 68.9
+    },
+    "Avg Logins": {
+      "0": 15.13,
+      "1": 14.99,
+      "2": 14.87,
+      "3": 15.1
+    },
+    "Avg Tickets": {
+      "0": 1.99,
+      "1": 2.01,
+      "2": 2.07,
+      "3": 2.03
+    },
+    "Churn Rate": {
+      "0": 0.76,
+      "1": 0.84,
+      "2": 0.69,
+      "3": 0.83
+    },
+    "Count": {
+      "0": 4126,
+      "1": 2854,
+      "2": 1814,
+      "3": 1206
+    },
+    "Segment Name": {
+      "0": "High Risk",
+      "1": "High Risk",
+      "2": "High Risk",
+      "3": "High Risk"
+    }
+  },
+  "recommendations": [
+    "1. Focus retention efforts on month-to-month contract customers",
+    "2. Proactively address customers with 2+ support tickets",
+    "3. Implement re-engagement campaigns for low-activity users",
+    "4. Offer payment flexibility to customers with payment delays",
+    "5. Provide personalized upgrade paths to high-value segments",
+    "6. Monitor engagement decay patterns weekly",
+    "7. Establish early warning system for customers inactive >14 days"
+  ]
+}
